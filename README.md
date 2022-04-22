@@ -40,7 +40,7 @@ pipenv build
 python app.py
 `
 ### Serve the production:
-`
+
 change the serve method in the init file
 from dev server to waitress.
-`
+
