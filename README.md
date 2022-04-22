@@ -3,7 +3,7 @@ FRONTEND: SVELTEKIT + BOOTSTRAP + I18N + MDSVEX (SKIS)
 `
 cd frontend
 `
-###Install Packages:
+### Install Packages:
 `
 yarn
 `
@@ -25,7 +25,7 @@ BackEnd: Flask + SQLalchemy + Marshmallow
 `
 cd backend
 `
-###Install Packages:
+### Install Packages:
 `
 pipenv install
 `
