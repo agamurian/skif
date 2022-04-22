@@ -1,3 +1,5 @@
+⛴
+
 FRONTEND: SVELTEKIT + BOOTSTRAP + I18N + MDSVEX (SKIS)
 ------------------------------------------------------
 `
