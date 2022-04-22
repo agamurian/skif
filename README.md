@@ -1,6 +1,6 @@
 🚣
 
-FRONTEND: SVELTEKIT + BOOTSTRAP + I18N + MDSVEX (SKIS)
+Frontend: Sveltekit + Bootstrap + i18n + MDsvex (SKIS)
 ------------------------------------------------------
 `
 cd frontend
