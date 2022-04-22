@@ -1,0 +1,234 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-77e80bdf.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-0296d445.js",
+      "_preload-helper-49353028.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      "src/routes/__error.svelte",
+      "src/routes/index.svelte",
+      "src/routes/en/index.svelte",
+      "src/routes/en/about.md",
+      "src/routes/en/login.svelte",
+      "src/routes/ru/index.svelte",
+      "src/routes/ru/about.md",
+      "src/routes/ru/login.svelte",
+      "src/routes/[lang]/[...error]/__layout.reset.svelte",
+      "src/routes/[lang]/[...error]/index.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-a06f2c81.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-49353028.js",
+      "_index-0296d445.js",
+      "_index-71de4bc8.js",
+      "_stores-12c98963.js"
+    ],
+    "dynamicImports": [
+      "_bootstrap.bundle.min-3e95f5b0.js",
+      "node_modules/@fortawesome/fontawesome-free/js/all.min.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-dcf3f007.css"
+    ]
+  },
+  "src/routes/__error.svelte": {
+    "file": "pages/__error.svelte-46f73ee3.js",
+    "src": "src/routes/__error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-0296d445.js",
+      "_index-71de4bc8.js",
+      "_stores-12c98963.js",
+      "_preload-helper-49353028.js"
+    ],
+    "css": [
+      "assets/pages/__error.svelte-5ccb2e57.css"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-d1c9e1af.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-0296d445.js"
+    ]
+  },
+  "src/routes/en/index.svelte": {
+    "file": "pages/en/index.svelte-ed95e893.js",
+    "src": "src/routes/en/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-0296d445.js",
+      "_index-71de4bc8.js",
+      "_preload-helper-49353028.js"
+    ]
+  },
+  "src/routes/en/about.md": {
+    "file": "pages/en/about.md-e7579579.js",
+    "src": "src/routes/en/about.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-0296d445.js"
+    ]
+  },
+  "src/routes/en/login.svelte": {
+    "file": "pages/en/login.svelte-b70a9091.js",
+    "src": "src/routes/en/login.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-0296d445.js"
+    ],
+    "css": [
+      "assets/pages/ru/login.svelte-ed7c2984.css"
+    ]
+  },
+  "src/routes/ru/index.svelte": {
+    "file": "pages/ru/index.svelte-89d2bd3d.js",
+    "src": "src/routes/ru/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-0296d445.js",
+      "_index-71de4bc8.js",
+      "_preload-helper-49353028.js"
+    ]
+  },
+  "src/routes/ru/about.md": {
+    "file": "pages/ru/about.md-84ba5f28.js",
+    "src": "src/routes/ru/about.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-0296d445.js"
+    ]
+  },
+  "src/routes/ru/login.svelte": {
+    "file": "pages/ru/login.svelte-76b9afc9.js",
+    "src": "src/routes/ru/login.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-0296d445.js"
+    ],
+    "css": [
+      "assets/pages/ru/login.svelte-ed7c2984.css"
+    ]
+  },
+  "src/routes/[lang]/[...error]/__layout.reset.svelte": {
+    "file": "pages/_lang_/_...error_/__layout.reset.svelte-ca59f7eb.js",
+    "src": "src/routes/[lang]/[...error]/__layout.reset.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-0296d445.js"
+    ]
+  },
+  "src/routes/[lang]/[...error]/index.svelte": {
+    "file": "pages/_lang_/_...error_/index.svelte-5788cd14.js",
+    "src": "src/routes/[lang]/[...error]/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-0296d445.js",
+      "src/routes/__error.svelte",
+      "_index-71de4bc8.js",
+      "_stores-12c98963.js",
+      "_preload-helper-49353028.js"
+    ]
+  },
+  "_index-0296d445.js": {
+    "file": "chunks/index-0296d445.js"
+  },
+  "_preload-helper-49353028.js": {
+    "file": "chunks/preload-helper-49353028.js",
+    "imports": [
+      "_index-0296d445.js"
+    ]
+  },
+  "_index-71de4bc8.js": {
+    "file": "chunks/index-71de4bc8.js",
+    "imports": [
+      "_preload-helper-49353028.js",
+      "_index-0296d445.js"
+    ],
+    "dynamicImports": [
+      "src/lib/translations/en/common.json",
+      "src/lib/translations/en/menu.json",
+      "src/lib/translations/en/home.json",
+      "src/lib/translations/en/error.json",
+      "src/lib/translations/ru/common.json",
+      "src/lib/translations/ru/menu.json",
+      "src/lib/translations/ru/home.json",
+      "src/lib/translations/ru/error.json"
+    ]
+  },
+  "_stores-12c98963.js": {
+    "file": "chunks/stores-12c98963.js",
+    "imports": [
+      "_index-0296d445.js"
+    ]
+  },
+  "_bootstrap.bundle.min-3e95f5b0.js": {
+    "file": "chunks/bootstrap.bundle.min-3e95f5b0.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/@fortawesome/fontawesome-free/js/all.min.js": {
+    "file": "chunks/all.min-c9a74dcf.js",
+    "src": "node_modules/@fortawesome/fontawesome-free/js/all.min.js",
+    "isDynamicEntry": true
+  },
+  "src/lib/translations/en/common.json": {
+    "file": "chunks/common-d91e288c.js",
+    "src": "src/lib/translations/en/common.json",
+    "isDynamicEntry": true
+  },
+  "src/lib/translations/en/menu.json": {
+    "file": "chunks/menu-355c5c2e.js",
+    "src": "src/lib/translations/en/menu.json",
+    "isDynamicEntry": true
+  },
+  "src/lib/translations/en/home.json": {
+    "file": "chunks/home-346bf1d8.js",
+    "src": "src/lib/translations/en/home.json",
+    "isDynamicEntry": true
+  },
+  "src/lib/translations/en/error.json": {
+    "file": "chunks/error-60ee6c56.js",
+    "src": "src/lib/translations/en/error.json",
+    "isDynamicEntry": true
+  },
+  "src/lib/translations/ru/common.json": {
+    "file": "chunks/common-b22ab1f9.js",
+    "src": "src/lib/translations/ru/common.json",
+    "isDynamicEntry": true
+  },
+  "src/lib/translations/ru/menu.json": {
+    "file": "chunks/menu-6743caf7.js",
+    "src": "src/lib/translations/ru/menu.json",
+    "isDynamicEntry": true
+  },
+  "src/lib/translations/ru/home.json": {
+    "file": "chunks/home-3dbd43c8.js",
+    "src": "src/lib/translations/ru/home.json",
+    "isDynamicEntry": true
+  },
+  "src/lib/translations/ru/error.json": {
+    "file": "chunks/error-b172b9a7.js",
+    "src": "src/lib/translations/ru/error.json",
+    "isDynamicEntry": true
+  }
+}

@@ -1,0 +1,85 @@
+@import "variable";
+
+:global {
+  html[data-color-scheme] {
+    body {
+      color: var(--main-font-color);
+      display: flex;
+      flex-direction: column;
+      height:100%;
+      font-family: IBM Plex Mono, Monaco, Consolas, "Courier New", monospace;
+    }
+
+    a {
+      color: var(--main-font-color);
+      text-decoration: none;
+      &:hover {
+        color: var(--main-font-color);
+        text-decoration: underline;
+      }
+    }
+
+    .curPoi {
+      cursor: pointer;
+    }
+
+    h1{
+      font-weight: 900;
+    }
+
+    .btn {
+      border-radius: 2px;
+      background-color: #964629cc;
+      border-color: #996643aa;
+      color: white;
+      box-shadow: #0003 2px 2px 1px;
+      &:hover {
+        color: rgb(17, 23, 15);
+        background-color:#a56541aa
+      }
+    }
+    .rounded {
+      border-radius: 15px;
+    }
+
+    .card {
+      border:7px;
+      background-color: #77777718;
+      padding:20px;
+      border-radius: 0px;
+      border: 4px dashed #77777718;
+      margin:-2px;
+    }
+
+    .colinher {
+      color: inherit;
+      background-color: --main-bg-color;
+      z-index: 50;
+    }
+
+    .column {
+      -webkit-column-width: 200px;
+      -moz-column-width: 200px;
+      column-width: 200px;
+      -webkit-column-count: 3;
+      -moz-column-count: 3;
+      column-count: 3;
+      -webkit-column-gap: 2em;
+      -moz-column-gap: 2em;
+      column-gap: 2em;
+      -webkit-column-rule: 2px dashed #cccc;
+      -moz-column-rule: 2px dashed #cccc;
+      column-rule: 2px solid #cccc;
+      padding: 2em;
+    }
+
+    .notSel {
+      user-select: none;
+    }
+    
+    .modal-backdrop {
+      z-index: -1;
+      opacity: 0%;
+  }
+  }
+}

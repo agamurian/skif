@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Flask = "==2.0.3"
+Flask-Cors = "==3.0.9"
+Flask-Login = "==0.5.0"
+Flask-WTF = "==0.14.3"
+click = "==8.0.4"
+itsdangerous = "==2.1.2"
+Jinja2 = "==3.0.1"
+MarkupSafe = "==2.1.1"
+Werkzeug = "==2.0.3"
+flask-sqlalchemy = "*"
+flask-marshmallow = "*"
+marshmallow-sqlalchemy = "*"
+flask-bcrypt = "*"
+pillow = "*"
+email-validator = "*"
+waitress = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

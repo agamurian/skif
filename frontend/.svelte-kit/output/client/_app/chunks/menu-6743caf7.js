@@ -1,0 +1,1 @@
+const o="\u0413\u043B\u0430\u0432\u043D\u0430\u044F",n="\u041E \u043F\u0440\u043E\u0435\u043A\u0442\u0435",t="Login";var a={home:o,about:n,login:t};export{n as about,a as default,o as home,t as login};

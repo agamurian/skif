@@ -1,0 +1,10 @@
+{
+  "menu": "меню",
+  "colorScheme": {
+    "dark": "темный",
+    "light": "светлая",
+    "darkTo": "на темную",
+    "lightTo": "на светлую"
+  },
+  "copyright": "Все права защищены © 2022 - {{crYear}} saw"
+}
